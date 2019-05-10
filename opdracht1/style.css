@@ -1,0 +1,46 @@
+div.vak{
+  border:3px solid white;
+  background-color:#1D1515;
+  height: 100px;
+  width: 100px;
+  cursor: crosshair;
+}
+div.square{
+margin-left: 40%;
+}
+div.center{
+  text-align: center;
+}
+div.reset{
+margin-top: 430px;
+}
+
+input[type=submit]{
+    width: 150px;  height: 40px;
+    color: white;
+    background-color: #F45A18;
+    border: none;
+}
+
+body{
+  color: white;
+  background-color: #34784F;
+}
+html
+.column {
+  float: left;
+  width: 10.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1{
+  font-size: 400%;
+}
+h1.een{
+  font-size: 480%;
+  line-height:1px;
+}
