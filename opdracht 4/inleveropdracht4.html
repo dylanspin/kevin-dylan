@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>opdracht_4</title>
+    <link rel="stylesheet" href="inleveropdracht4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jp4.js"></script>
+  </head>
+  <body>
+
+  <div class="taal">
+    <button id="twee"><a href="inleveropdracht4_eng.html"><h2>Engels</h2></a></button>
+  </div>
+
+<div class="rechts">
+  <div class="top">
+    <h1 class="een">Formulier</h1>
+  </div>
+
+  <div class="rand">
+  </div>
+
+  <div class="invoer">
+    <div class="select">
+      <div class="select" id="vak1" onclick="select()"><h2>&emsp;Heer<h2></div>
+      <div class="select1" id="vak2" onclick="select()"><h2>&emsp;Mevrouw</h2></div>
+    </div><br><br>
+
+    <form>
+      <input type="text" name="0" id="0"placeholder="Naam"onchange=""><br><br>
+      <input type="text" name="1" id="1"placeholder="Adres" onchange=""><br><br>
+      <input type="text" name="2" id="2" placeholder="Woonplaats" onchange=""><br><br>
+      <input type="text" name="3" id="3" placeholder="Postcode" onchange=""><br><br>
+      <input type="text" name="4" id="4" placeholder="Land" onchange=""><br><br>
+      <input type="date" name="5" id="5" placeholder="Geboortedatum" onchange="leeftijd()"><br><br>
+      <input type="text" name="6" id="6" placeholder="Beroep" onchange=""><br><br>
+    </form>
+  </div>
+
+  <div class="rand2">
+  </div>
+  <div class="comments">
+    <h1>Comments</h1><br>
+    <textarea rows="8" cols="35" id="comments" class="text"></textarea><br>
+    <button class="twee" onclick="check()" id="een">stuur</button>
+  </div>
+</div>
+<div class="leeftijd" id="leeftijd" ></div>
+  </body>
+</html>

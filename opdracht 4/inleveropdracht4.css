@@ -1,0 +1,114 @@
+div.rechts{
+  margin-left: 100px;
+}
+div.taal{
+  margin-top: 40px;
+  margin-left: 80%;
+}
+div.center{
+  text-align: center;
+}
+div.select{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  margin-left:0px;
+  margin-top: -450px;
+}
+div.select1{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  margin-left: 200px;
+  margin-top: -43px;
+}
+div.top{
+margin-top: -90px;
+}
+div.rand{
+  border: 8px solid white;
+  width: 420px;
+  height: 450px;
+  margin-left: -20px;
+}
+div.rand2{
+  border: 8px solid white;
+  width: 300px;
+  height: 200px;
+  margin-left: 550px;
+  margin-top: -185px;
+}
+div.invoer{
+  margin-top: -430px;
+  margin-left: 20px;
+}
+div.comments{
+  margin-left: 600px;
+  margin-top: -285px;
+  margin-left: 573px;
+}
+div.gender{
+  margin-top: -70px;
+  margin-left: 40px;
+  cursor: crosshair;
+}
+div.gender2{
+margin-top: -60px;
+margin-left: 260px;
+cursor: crosshair;
+}
+div.leeftijd{
+  margin-top: -135px;
+  margin-left: 340px;
+}
+body{
+  color: white;
+  background-color: #1D1515;
+  margin: 30px;
+}
+button{
+  color: white;
+  border: none;
+  background-color: #F45A18;
+  width: 200px;
+}
+.twee{
+  font-size: 27px;
+  color: white;
+  border: none;
+}
+select{
+  font-size: 22px;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+}
+input[type=text]{
+  font-size: 22px;
+  color: black;
+  background-color: white;
+}
+input[type=submit]{
+  font-size: 27px;
+  color: black;
+  border: none;
+  background-color: #F45A18;
+}
+input[type=date]{
+  font-size: 20px;
+  color: black;
+  background-color: white;
+}
+input[type=date].comment{
+  font-size: 20px;
+  height: 200px;
+  width: 200px;
+  color: black;
+  background-color: white;
+}
+h1.een{
+  font-size: 350%;
+}
+h2{
+  color: white;
+}
