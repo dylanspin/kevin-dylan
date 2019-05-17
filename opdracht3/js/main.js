@@ -4,8 +4,9 @@ var array = [];
         var result = document.getElementById('field1');
         var result1 = document.getElementById('field2');
 
-        function naam() {
+        function name1(){
           var name = document.querySelector("#name").value;
+
           array.push(name);
 
             result.innerHTML = "<h1>"+array[0]+"</h1><h1>"+array[1]+"</h1><h1>"+array[2]+"</h1><h1>"

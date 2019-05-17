@@ -5,30 +5,48 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/master.css">
   <title>Name Shifter</title>
+  <!--test script om te bughunten
+  <script>
+    var array = [];
+    var array1 = [];
+
+    function name_() { //hier is er iets mis en dat test ik zodat als het werkend is het in main.js kan komen als werkend
+      var name = document.querySelector('#name').value;
+      alert("Hallo X" + name);
+      var len = array.push("1: " + name);
+      alert("lengte " + len);
+      //result.innerHTML = "<h1>"+array[0]+"</h1>"; in dit gedeelte van de code pusht die een naam niet naar de linker en/of rechterveld
+      result.innerHTML = "<h1> test </h1>"; //bij deze lijn teste ik of het erin kwam maar test kwam in het veld en ging er weer gelijk uit.
+
+    }
+  </script> -->
 </head>
 
 <body>
+
+
   <div class="center">
     <h1>Name Shifter</h1>
-    <form>
+      <!--input is voor naam invoer en button voor senden van naam naar field-->
       <h2>Input name:<h2>
-        <input class="text" type="text" name="name" placeholder="Name" id="name">&emsp;
-        <button class="submit" id="" onclick="name()" name="button">Send</button>
-    </form>
+          <input class="text" type="text" name="name" placeholder="Name" id="name">&emsp;
+          <button class="submit" id="name" onclick="name1()" name="name">Send</button>
   </div>
-
+<!-- lijn 34 en 35 zijn de velden waarin de namen komen -->
   <div class="field1" id="field1"></div>
   <div class="field2" id="field2"></div>
 
   <div class="center">
     <div class="switch">
-      <button class="switch" name="switch1" id="switch1" onclick="switch1()"> <<<<< </button> <br>
+      <button class="switch" name="switch1" id="switch1" onclick="switch1()">
+        <<<<< </button> <br>
     </div>
     <div class="switch2">
       <button class="switch" name="switch2" id="switch2" onclick="switch2()"> >>>>> </button>
     </div>
   </div>
-
+  <!--script die zou moeten werken test ik in deeltjes bij de eerste script boven index -->
   <script src="js/main.js"></script>
 </body>
+
 </html>
